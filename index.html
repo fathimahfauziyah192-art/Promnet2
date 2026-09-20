@@ -2,45 +2,54 @@
 <html lang="id">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <h1>Personal Website</h1>
-    <p>Selamat datang di my website-!</p>
+    <p class="sub-header">Selamat datang di my website-!</p>
     <nav>
-      <a href="index.html">Home</a> | <a href="about.html">About</a> |
-      <a href="project.html">Project</a> |<a href="kontak.html">Kontak</a> |<a
-        href="katalog.html"
-        >Katalog</a
-      >
+      <div class="link-navbar">
+        <a href="index.html">Home</a> | <a href="about.html">About</a> |
+        <a href="project.html">Project</a> |<a href="kontak.html">Kontak</a> |<a
+          href="katalog.html"
+          >Katalog</a
+        >
+      </div>
     </nav>
     <hr />
-    <h2>Salam Kenal, saya Fathimah Fauziyah</h2>
-    <img src="assets/Fathimah.jpeg" alt="Foto profil" width="345" />
 
-    <p>
-      Saat ini saya adalah seorang Mahasiswi yang sedang belajar membuat
-      Website.<br />Website ini dibuat sebagai latihan dalam menggunakan HTML
-      dasar tanpa CSS.
-    </p>
+    <section id="index">
+      <div class="deskripsi">
+        <h2>Salam Kenal, saya Fathimah Fauziyah</h2>
+        <img src="assets/Fathimah.jpeg" alt="Foto profil" width="345" />
 
-    <p>
-      Di website ini, anda dapat mengenal, mengetahui, ataupun menghubungi saya
-      lebih dekat.
-    </p>
+        <p class="pertama">
+          Saat ini saya adalah seorang Mahasiswi yang sedang belajar membuat
+          Website.<br />Website ini dibuat sebagai latihan dalam menggunakan
+          HTML dasar menggunakan CSS.
+        </p>
 
-    <h3>Yang sedang saya pelajari</h3>
-    <ul>
-      <li>HTML</li>
-      <li>Basis Data</li>
-      <li>Algoritma Pemrograman</li>
-      <li>Git dan Github</li>
-    </ul>
+        <p class="kedua">
+          Di website ini, anda dapat mengenal, mengetahui, ataupun menghubungi
+          saya lebih dekat.
+        </p>
 
-    <p>
-      Kunjungi halaman <a href="about.html">About</a> untuk mengetahui profil
-      saya lebih lengkap.
-    </p>
+        <h3>Yang sedang saya pelajari</h3>
+        <ul>
+          <li>HTML</li>
+          <li>Basis Data</li>
+          <li>Algoritma Pemrograman</li>
+          <li>Git dan Github</li>
+        </ul>
+
+        <p class="ketiga">
+          Kunjungi halaman <a href="about.html">About</a> untuk mengetahui
+          profil saya lebih lengkap.
+        </p>
+      </div>
+    </section>
     <hr />
     <h5>© 2026/08 Dibuat menggunakan HTML</h5>
   </body>

@@ -2,15 +2,23 @@
 <html lang="id">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Website</title>
-  </head>
+   <link rel="stylesheet" href="style.css" />
+   </head>
   <body>
     <h1>Contact Me</h1>
+    <p class="sub-header">Tempat menghubungi saya-!</p>
     <nav>
+      <div class="link-navbar">
       <a href="index.html">Home</a> | <a href="about.html">About</a> |
       <a href="project.html">Project</a> | <a href="kontak.html">Kontak</a> |<a href="katalog.html">Katalog</a>
+      </div>
     </nav>
     <hr />
+
+    <section id="kontak">
+      <div class="deskripsi">
     <h2>Informasi Kontak</h2>
     <p>
       Jika ingin berdiskusi atau bekerja sama, silakan hubungi saya melalui form
@@ -31,27 +39,6 @@
             text-align: right;
             font-weight: bold;
          }
-         /* td{
-            padding: 8px;
-        }
-        td.label{
-            width: 25%;
-            text-align: right;
-            font-weight: bold;
-        }  */
-         /* input[type="text"],
-        input[type="email"],
-        input[type="password"],
-        input[type="number"],
-        input[type="select"]{
-            width: 50%;
-        }
-        select{
-            width: 50%;
-        }
-        textarea{
-            width: 50%;
-        } */
       </style>
    </head>
    <body>
@@ -145,10 +132,10 @@
       <br />
       <hr />
 
-      <h1 style="text-align: center">Form Data 2</h1>
+      <h2 style="text-align: center">Form Data 2</h2>
 
       <form>
-         <table border="1px solid" width="50%" style="border-collapse: collapse; margin: 0 auto">
+         <table border="1px" style="border-collapse: collapse; margin: 0 auto">
             <tr>
                <td class="label">Nama :</td>
                <td class="input"><input type="text" name="nama" /></td>
@@ -206,10 +193,11 @@
       </form>
 
       <p><em>Catatan: website ini hanya menggunakan HTML sehingga form belum terhubung ke server/database</em></p>
-
+   </div>
+   </section>
       <hr>
 
-      <a href="index.html">Kembali ke Home</a>
+      <p class="ketiga"><a href="index.html">Kembali ke Home</a></p>
 
       <h5>© 2026/08 Fathimah Fauziyah</h5>
   </body>
